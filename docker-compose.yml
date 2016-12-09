@@ -1,0 +1,6 @@
+app:
+  image: ebook
+  volumes:
+    - /home/ExtendHD/EbookCatalog:/home/apps/ebook/catalog
+  net: "host"
+  tty: true
