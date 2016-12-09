@@ -1,5 +1,5 @@
 app:
-  image: ebook
+  image: fwed/ebook
   volumes:
     - /home/ExtendHD/EbookCatalog:/home/apps/ebook/catalog
   net: "host"
