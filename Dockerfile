@@ -67,7 +67,7 @@ RUN chmod -f 755 /root/services.sh
 RUN echo "sh /root/services.sh" >> /root/.bashrc
 
 # Ports
-EXPOSE 22 80 9201 9202 9203 9204 9205
+EXPOSE 22 9201 9202 9203 9204 9205
 
 # Point de montage
 VOLUME ["/home"]
